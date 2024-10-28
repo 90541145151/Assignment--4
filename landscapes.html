@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture This - Landscape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <li><a href="landscapes.html">Landscape</a></li>
+    <li><a href="square.html">square</a></li>
+    <header class="header">
+        <div class="text-overlay">
+            <h1>Picture This!</h1>
+            <p>My Really Cool Blog Post</p>
+        </div>
+    </header>
+    
+    <section class="image-section">
+        <!-- Landscape Image -->
+        <picture>
+            <source media="(max-width: 959px)" srcset="
+                Image/MM.png 320w,
+                Image/MM.png 480w,
+                Image/MM.png 720w,
+                Image/MM.png 960w
+            " type="Image/png">
+            <img src="Image/MM.png" alt="Landscape Blog Post Image">
+        </picture>
+    </section>
+</body>
+</html>

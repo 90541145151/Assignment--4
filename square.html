@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture This - Square</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <li><a href="landscapes.html">Landscape</a></li>
+     <li><a href="square.html">square</a></li>
+    <header class="header">
+        <div class="text-overlay">
+            <h1>Picture This!</h1>
+            <p>My Really Cool Blog Post</p>
+        </div>
+    </header>
+    
+    <section class="image-section">
+        <!-- Square Image -->
+        <picture>
+            <source media="(min-width: 960px)" srcset="
+                Image/museum.jpg 1x,
+                Image/museum.jpg 1.5x,
+                Image/museum.jpg 2x
+            " type="Image/jpg">
+            <img src="Image/museum.jpg" alt="Square Blog Post Image">
+        </picture>
+    </section>
+</body>
+</html>
